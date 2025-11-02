@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // });
 
         // Show success message
-        formStatus.textContent = 'Thank you for your message! I\'ll get back to you soon.';
+        formStatus.textContent = `Thank you for your message! I'll get back to you soon.`;
         formStatus.className = 'form-status success';
         contactForm.reset();
 
